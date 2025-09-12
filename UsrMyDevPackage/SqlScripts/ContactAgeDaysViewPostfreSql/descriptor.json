@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "2b59cc28-8e5d-ea57-9a97-6e226196bec9",
+    "Name": "ContactAgeDaysViewPostfreSql",
+    "DBEngineType": 2,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1757493656000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

@@ -544,8 +544,7 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/UsrMyDevPackage/Schemas/UsrCarBodyType/UsrCarBodyType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrMyDevPackage/Schemas/UsrCarBodyType/UsrCarBodyType.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/UsrMyDevPackage/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrMyDevPackage/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrReality/Schemas/UsrReality/UsrReality.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrReality/Schemas/UsrReality/UsrReality.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
